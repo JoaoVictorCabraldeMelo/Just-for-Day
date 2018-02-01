@@ -1,0 +1,55 @@
+body{
+	background-color: #000;
+	margin:0;
+}
+
+.heading{
+	text-align: center;
+	color:white;
+	text-shadow:2px 2px 8px #ff0000;
+	font-family: 'Amatic';
+	font-size: 20px;
+}
+
+.coracao{
+	position:relative;
+	width:300px;
+	height:300px;
+	margin:0 20px;
+	animation: pulse 1s infinite alternate ease-in-out;
+	margin:0 auto;
+}
+@keyframes pulse {
+	0%{
+		transform:scale(.9) rotate(-135deg);
+	  }
+	100%{
+		transform:scale(.11) rotate(-135deg);
+	}
+
+}
+
+.quadrado{
+	width:200px;
+	height:200px;
+	background:#ff0000;
+	position:absolute;
+}
+.circl1{
+	width:200px;
+	height:200px;
+	position:absolute;
+	background:#ff0000;
+	border-radius:50%;
+	top:100px;
+}
+
+.circl2{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background:#ff0000;
+	position:absolute;
+	left:100px;
+}
+
